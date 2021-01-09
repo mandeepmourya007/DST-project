@@ -1,9 +1,4 @@
-/**
-* Template Name: Bikin - v2.2.0
-* Template URL: https://bootstrapmade.com/bikin-free-simple-landing-page-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 !(function ($) {
   "use strict";
 
@@ -193,11 +188,12 @@
   }
   $(window).on('load', function () {
     aos_init();
+    let d1 = document.querySelector("#day1");
+    let d2 = document.querySelector("#day2");
+    d2.click();
+    d1.click();
   });
 
 })(jQuery);
 
-let d1 = document.querySelector("#day1");
-let d2 = document.querySelector("#day2");
-d2.click();
-d1.click();
+// d1.click();
